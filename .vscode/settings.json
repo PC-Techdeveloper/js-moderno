@@ -1,0 +1,241 @@
+{
+  // ========== Visuals ==========
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.guides.bracketPairs": "active",
+  "editor.lineNumbers": "on",
+  "editor.renderWhitespace": "boundary",
+  "window.autoDetectColorScheme": true,
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.editor.tabActionLocation": "left",
+  "workbench.iconTheme": "symbols",
+  "workbench.list.smoothScrolling": true,
+  "workbench.preferredLightColorTheme": "One Dark Pro Darker",
+  "workbench.productIconTheme": "fluent-icons",
+  "workbench.startupEditor": "none",
+  "workbench.tree.expandMode": "singleClick",
+  "workbench.tree.indent": 10,
+
+  // ========== Editor ==========
+  "debug.onTaskErrors": "debugAnyway",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.wordSeparators": "`~!@#%^&*()=+[{]}\\|;:'\",.<>/?",
+  "editor.find.addExtraSpaceOnTop": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.unicodeHighlight.invisibleCharacters": false,
+  "editor.stickyScroll.enabled": true,
+  "editor.hover.sticky": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "never"
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.simpleDialog.enable": true,
+  "git.autofetch": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.untrackedChanges": "separate",
+  "scm.diffDecorationsGutterWidth": 2,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.persistentSessionReviveProcess": "never",
+  "terminal.integrated.tabs.enabled": true,
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.perEditorGroup": true,
+  "workbench.editor.limit.value": 5,
+  "search.exclude": {
+    "**/*.snap": true,
+    "**/*.svg": true,
+    "**/.git": true,
+    "**/.github": false,
+    "**/.nuxt": true,
+    "**/.output": true,
+    "**/.pnpm": true,
+    "**/.vscode": true,
+    "**/.yarn": true,
+    "**/assets": true,
+    "**/bower_components": true,
+    "**/dist/**": true,
+    "**/logs": true,
+    "**/node_modules": true,
+    "**/out/**": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/public": true,
+    "**/temp": true,
+    "**/yarn.lock": true,
+    "**/CHANGELOG*": true,
+    "**/LICENSE*": true
+  },
+
+  // ==========  Global Level Config, needs to put in User Settings ==========
+
+  "window.title": "${rootName}", // this make tabs more readable
+
+  // ========== Extension configs ==========
+  "emmet.showSuggestionsAsSnippets": true,
+  "emmet.triggerExpansionOnTab": false,
+  "errorLens.enabledDiagnosticLevels": ["warning", "error"],
+  "errorLens.excludeBySource": ["cSpell", "Grammarly", "eslint"],
+
+  // ESLint config: https://github.com/antfu/eslint-config
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+  "eslint.quiet": true,
+  // Silent the stylistic rules in you IDE, but still auto fix them
+  "eslint.rules.customizations": [
+    { "rule": "style/*", "severity": "off" },
+    { "rule": "format/*", "severity": "off" },
+    { "rule": "*-indent", "severity": "off" },
+    { "rule": "*-spacing", "severity": "off" },
+    { "rule": "*-spaces", "severity": "off" },
+    { "rule": "*-order", "severity": "off" },
+    { "rule": "*-dangle", "severity": "off" },
+    { "rule": "*-newline", "severity": "off" },
+    { "rule": "*quotes", "severity": "off" },
+    { "rule": "*semi", "severity": "off" }
+  ],
+  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "html", "markdown", "json", "jsonc", "yaml", "toml"],
+  "css.lint.hexColorLength": "ignore",
+  "gitlens.codeLens.authors.enabled": false,
+  "gitlens.codeLens.enabled": false,
+  "gitlens.codeLens.recentChange.enabled": false,
+  "gitlens.menus": {
+    "editor": {
+      "blame": false,
+      "clipboard": true,
+      "compare": true,
+      "history": false,
+      "remote": false
+    },
+    "editorGroup": {
+      "blame": true,
+      "compare": false
+    },
+    "editorTab": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "explorer": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": true
+    },
+    "scm": {
+      "authors": true
+    },
+    "scmGroup": {
+      "compare": true,
+      "openClose": true,
+      "stash": true
+    },
+    "scmGroupInline": {
+      "stash": true
+    },
+    "scmItem": {
+      "clipboard": true,
+      "compare": true,
+      "history": true,
+      "remote": false,
+      "stash": true
+    }
+  },
+
+  // I only use Prettier for manually formatting
+  "prettier.enable": true,
+  "prettier.printWidth": 200,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "editor.wordWrap": "on",
+  "breadcrumbs.enabled": false,
+  "editor.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "files.autoSave": "afterDelay",
+  "symbols.hidesExplorerArrows": false,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "terminal.integrated.defaultProfile.windows": "PowerShell",
+  "editor.minimap.enabled": false,
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "workbench.editor.enablePreview": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.fontLigatures": true,
+  "zenMode.fullScreen": false,
+  "explorer.confirmPasteNative": false,
+  "editor.fontFamily": "Cascadia Code",
+  "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
+  "editor.fontSize": 16,
+  "window.zoomLevel": 1,
+  "editor.folding": false,
+  "terminal.integrated.lineHeight": 1,
+  "editor.cursorStyle": "line",
+  "oneDarkPro.bold": true,
+  "oneDarkPro.italic": true,
+  "oneDarkPro.vivid": true,
+  "workbench.sideBar.location": "right",
+  "console-ninja.toolsToEnableSupportAutomaticallyFor": {
+    "live-server-extension": true,
+    "live-preview-extension": true
+  },
+  "editor.parameterHints.enabled": false,
+  "editor.renderLineHighlight": "none",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.suggest.localityBonus": true,
+  "editor.acceptSuggestionOnEnter": "on",
+  "workbench.editor.wrapTabs": false,
+  "editor.guides.indentation": true,
+  //Desactiva animaciones
+  "workbench.settings.enableNaturalLanguageSearch": false,
+  "editor.cursorBlinking": "expand",
+  //Desactiva las sugerencias emergentes
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": true,
+    "strings": true
+  },
+  //Desactiva telemetría
+  "telemetry.enableCrashReporter": false,
+  //Reduce la complejidad del intellisense
+  "typescript.suggest.completeFunctionCalls": true,
+  "typescript.suggest.completeJSDocs": true,
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter"
+  },
+  "window.newWindowDimensions": "fullscreen",
+  "window.restoreFullscreen": true,
+  "supermaven.enable": {
+    "enable": true,
+    "autoUpdate": true,
+    "autoSave": true,
+    "autoFormat": true,
+    "formatOnSave": true,
+    "formatOnPaste": true
+  }
+}
