@@ -43,6 +43,8 @@
   "git.untrackedChanges": "separate",
   "scm.diffDecorationsGutterWidth": 2,
   "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.tabs.showActiveTerminal": "singleTerminal",
+  "terminal.integrated.tabs.enableAnimation": true,
   "terminal.integrated.persistentSessionReviveProcess": "never",
   "terminal.integrated.tabs.enabled": true,
   "workbench.editor.closeOnFileDelete": true,
@@ -188,9 +190,9 @@
   "explorer.confirmPasteNative": false,
   "editor.fontFamily": "Cascadia Code",
   "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 15,
   "terminal.integrated.fontFamily": "FiraCode Nerd Font",
-  "editor.fontSize": 16,
+  "editor.fontSize": 15,
   "window.zoomLevel": 1,
   "editor.folding": false,
   "terminal.integrated.lineHeight": 1,
@@ -213,7 +215,7 @@
   "editor.guides.indentation": true,
   //Desactiva animaciones
   "workbench.settings.enableNaturalLanguageSearch": false,
-  "editor.cursorBlinking": "expand",
+  "editor.cursorBlinking": "blink",
   //Desactiva las sugerencias emergentes
   "editor.quickSuggestions": {
     "other": true,
@@ -237,5 +239,8 @@
     "autoFormat": true,
     "formatOnSave": true,
     "formatOnPaste": true
-  }
+  },
+  "terminal.integrated.env.windows": {},
+  "window.commandCenter": false,
+  "workbench.layoutControl.enabled": false
 }
