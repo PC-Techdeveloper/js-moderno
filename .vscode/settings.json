@@ -192,11 +192,11 @@
   "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
   "terminal.integrated.fontSize": 15,
   "terminal.integrated.fontFamily": "FiraCode Nerd Font",
-  "editor.fontSize": 15,
+  "editor.fontSize": 16,
   "window.zoomLevel": 1,
   "editor.folding": false,
   "terminal.integrated.lineHeight": 1,
-  "editor.cursorStyle": "line",
+  "editor.cursorStyle": "block",
   "oneDarkPro.bold": true,
   "oneDarkPro.italic": true,
   "oneDarkPro.vivid": true,
@@ -222,8 +222,6 @@
     "comments": true,
     "strings": true
   },
-  //Desactiva telemetría
-  "telemetry.enableCrashReporter": false,
   //Reduce la complejidad del intellisense
   "typescript.suggest.completeFunctionCalls": true,
   "typescript.suggest.completeJSDocs": true,
