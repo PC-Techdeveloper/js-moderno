@@ -191,14 +191,14 @@
   "explorer.confirmPasteNative": false,
   "editor.fontFamily": "Cascadia Code",
   "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 15,
   "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
   "terminal.integrated.fontWeight": "bold",
-  "editor.fontSize": 17,
-  "window.zoomLevel": 0.75,
+  "editor.fontSize": 14,
+  "window.zoomLevel": 1.75,
   "editor.folding": false,
   "terminal.integrated.lineHeight": 1,
-  "editor.cursorStyle": "block",
+  "editor.cursorStyle": "line",
   "oneDarkPro.bold": true,
   "oneDarkPro.italic": true,
   "oneDarkPro.vivid": true,
@@ -217,7 +217,7 @@
   "editor.guides.indentation": true,
   //Desactiva animaciones
   "workbench.settings.enableNaturalLanguageSearch": false,
-  "editor.cursorBlinking": "blink",
+  "editor.cursorBlinking": "expand",
   //Desactiva las sugerencias emergentes
   "editor.quickSuggestions": {
     "other": true,
