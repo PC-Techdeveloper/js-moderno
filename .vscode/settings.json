@@ -1,13 +1,14 @@
 {
   // ========== Visuals ==========
   "editor.cursorSmoothCaretAnimation": "on",
+  "workbench.settings.editor": "json",
   "editor.guides.bracketPairs": "active",
   "editor.lineNumbers": "on",
   "editor.renderWhitespace": "boundary",
   "window.autoDetectColorScheme": true,
   "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.editor.tabActionLocation": "left",
-  "workbench.iconTheme": "symbols",
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.list.smoothScrolling": true,
   "workbench.preferredLightColorTheme": "One Dark Pro Darker",
   "workbench.productIconTheme": "fluent-icons",
@@ -190,17 +191,18 @@
   "explorer.confirmPasteNative": false,
   "editor.fontFamily": "Cascadia Code",
   "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
-  "terminal.integrated.fontSize": 15,
-  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
-  "editor.fontSize": 16,
-  "window.zoomLevel": 1,
+  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
+  "terminal.integrated.fontWeight": "bold",
+  "editor.fontSize": 17,
+  "window.zoomLevel": 0.75,
   "editor.folding": false,
   "terminal.integrated.lineHeight": 1,
   "editor.cursorStyle": "block",
   "oneDarkPro.bold": true,
   "oneDarkPro.italic": true,
   "oneDarkPro.vivid": true,
-  "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "left",
   "console-ninja.toolsToEnableSupportAutomaticallyFor": {
     "live-server-extension": true,
     "live-preview-extension": true
@@ -228,7 +230,7 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
-  "window.newWindowDimensions": "fullscreen",
+  "window.newWindowDimensions": "maximized",
   "window.restoreFullscreen": true,
   "supermaven.enable": {
     "enable": true,
@@ -240,5 +242,41 @@
   },
   "terminal.integrated.env.windows": {},
   "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false
+  "workbench.layoutControl.enabled": false,
+  "workbench.activityBar.location": "bottom",
+  "explorer.compactFolders": false,
+  "files.trimTrailingWhitespace": true,
+  "[markdown]": {
+    "files.trimTrailingWhitespace": false
+  },
+  "material-icon-theme.hidesExplorerArrows": true,
+  "window.titleBarStyle": "custom",
+  //APC
+  "apc.activityBar": {
+    "position": "bottom",
+    "hideSettings": true,
+    "size": 24
+  },
+  "apc.electron": {
+    "titleBarStyle": "hiddenInset",
+    "trafficLightPosition": {
+      "x": 12,
+      "y": 10
+    }
+  },
+  "apc.font.family": "Cascadia Code",
+  "apc.monospace.font.family": "Cascadia Code",
+  "apc.statusBar": {
+    "position": "editor-bottom",
+    "height": 28,
+    "fontSize": 14
+  },
+  //Change font
+  "scm.inputFontFamily": "Cascadia Code",
+  "chat.editor.fontFamily": "Cascadia Code",
+  "debug.console.fontFamily": "Cascadia Code",
+  "editor.codeLensFontFamily": "Cascadia Code",
+  "notebook.output.fontFamily": "Cascadia Code",
+  "markdown.preview.fontFamily": "Cascadia Code",
+  "editor.inlayHints.fontFamily": "Cascadia Code"
 }
