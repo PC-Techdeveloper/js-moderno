@@ -191,18 +191,18 @@
   "explorer.confirmPasteNative": false,
   "editor.fontFamily": "Cascadia Code",
   "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
-  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontSize": 16,
   "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
-  "terminal.integrated.fontWeight": "bold",
-  "editor.fontSize": 15,
-  "window.zoomLevel": 1.95,
+  "terminal.integrated.fontWeight": "normal",
+  "editor.fontSize": 16,
+  "window.zoomLevel": 0.95,
   "editor.folding": false,
-  "terminal.integrated.lineHeight": 1,
+  "terminal.integrated.lineHeight": 0.95,
   "editor.cursorStyle": "block",
   "oneDarkPro.bold": true,
   "oneDarkPro.italic": true,
   "oneDarkPro.vivid": true,
-  "workbench.sideBar.location": "left",
+  "workbench.sideBar.location": "right",
   "console-ninja.toolsToEnableSupportAutomaticallyFor": {
     "live-server-extension": true,
     "live-preview-extension": true
@@ -243,14 +243,14 @@
   "terminal.integrated.env.windows": {},
   "window.commandCenter": false,
   "workbench.layoutControl.enabled": false,
-  "workbench.activityBar.location": "bottom",
+  "workbench.activityBar.location": "top",
   "explorer.compactFolders": false,
   "files.trimTrailingWhitespace": true,
   "[markdown]": {
     "files.trimTrailingWhitespace": false
   },
   "material-icon-theme.hidesExplorerArrows": true,
-  "window.titleBarStyle": "custom",
+  "window.titleBarStyle": "native",
   //APC
   "apc.activityBar": {
     "position": "bottom",
@@ -264,13 +264,24 @@
       "y": 10
     }
   },
-  "apc.font.family": "Cascadia Code",
-  "apc.monospace.font.family": "Cascadia Code",
+  "apc.font.family": "Consolas",
+  "apc.monospace.font.family": "Consolas",
   "apc.statusBar": {
     "position": "editor-bottom",
     "height": 28,
     "fontSize": 14
   },
+  "apc.stylesheet": {
+    ".title-label > h2": "display: none;",
+    ".editor-actions": "display: none;",
+    ".nosidebar .inline-tabs-placeholder": "width: 75px",
+    ".pane-header": "padding: 0 8px",
+    ".pane-body": "padding: 0 8px",
+    ".split-view-view:first-child .pane-header": "display: none !important",
+    ".monaco-list-row": "border-radius: 4px;",
+    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+  },
+  "explorer.fileNesting.enabled": true,
   //Change font
   "scm.inputFontFamily": "Cascadia Code",
   "chat.editor.fontFamily": "Cascadia Code",
