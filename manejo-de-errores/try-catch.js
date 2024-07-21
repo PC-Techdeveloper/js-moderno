@@ -56,6 +56,9 @@ try {
 }
 
 //Try...catch...finally
+//try -> intenta ejecutar el código
+//catch -> ejecuta el código si ocurre un error
+//finally -> ejecuta el código si todo va bien
 
 try {
   console.log('intenta (try)')
