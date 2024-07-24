@@ -4,7 +4,7 @@
   "workbench.settings.editor": "json",
   "editor.guides.bracketPairs": "active",
   "editor.lineNumbers": "on",
-  "editor.renderWhitespace": "boundary",
+  "editor.renderWhitespace": "none",
   "window.autoDetectColorScheme": true,
   "workbench.colorTheme": "One Dark Pro Darker",
   "workbench.editor.tabActionLocation": "left",
@@ -106,7 +106,19 @@
     { "rule": "*quotes", "severity": "off" },
     { "rule": "*semi", "severity": "off" }
   ],
-  "eslint.validate": ["javascript", "javascriptreact", "typescript", "typescriptreact", "vue", "html", "markdown", "json", "jsonc", "yaml", "toml"],
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact",
+    "vue",
+    "html",
+    "markdown",
+    "json",
+    "jsonc",
+    "yaml",
+    "toml"
+  ],
   "css.lint.hexColorLength": "ignore",
   "gitlens.codeLens.authors.enabled": false,
   "gitlens.codeLens.enabled": false,
@@ -156,10 +168,17 @@
   },
 
   // I only use Prettier for manually formatting
-  "prettier.enable": true,
-  "prettier.printWidth": 200,
-  "prettier.semi": false,
+  "prettier.requireConfig": false,
+  "prettier.printWidth": 80,
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.semi": true,
   "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "prettier.bracketSpacing": true,
+  "prettier.arrowParens": "avoid",
+  "prettier.proseWrap": "preserve",
+  "prettier.endOfLine": "lf",
   "editor.wordWrap": "on",
   "breadcrumbs.enabled": false,
   "editor.smoothScrolling": true,
@@ -191,24 +210,21 @@
   "explorer.confirmPasteNative": false,
   "editor.fontFamily": "Cascadia Code",
   "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
-  "terminal.integrated.fontSize": 16,
-  "terminal.integrated.fontFamily": "MesloLGM Nerd Font",
-  "terminal.integrated.fontWeight": "normal",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
   "editor.fontSize": 16,
-  "window.zoomLevel": 0.95,
+  "editor.lineHeight": 26,
+  "window.zoomLevel": 1,
   "editor.folding": false,
-  "terminal.integrated.lineHeight": 0.95,
-  "editor.cursorStyle": "block",
-  "oneDarkPro.bold": true,
-  "oneDarkPro.italic": true,
-  "oneDarkPro.vivid": true,
+  "terminal.integrated.lineHeight": 1,
+  "editor.cursorStyle": "line",
   "workbench.sideBar.location": "right",
   "console-ninja.toolsToEnableSupportAutomaticallyFor": {
     "live-server-extension": true,
     "live-preview-extension": true
   },
   "editor.parameterHints.enabled": false,
-  "editor.renderLineHighlight": "none",
+  "editor.renderLineHighlight": "all",
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "editor.suggestOnTriggerCharacters": true,
   "editor.suggest.localityBonus": true,
@@ -250,7 +266,6 @@
     "files.trimTrailingWhitespace": false
   },
   "material-icon-theme.hidesExplorerArrows": true,
-  "window.titleBarStyle": "native",
   //APC
   "apc.activityBar": {
     "position": "bottom",
@@ -264,22 +279,10 @@
       "y": 10
     }
   },
-  "apc.font.family": "Consolas",
-  "apc.monospace.font.family": "Consolas",
   "apc.statusBar": {
     "position": "editor-bottom",
-    "height": 28,
-    "fontSize": 14
-  },
-  "apc.stylesheet": {
-    ".title-label > h2": "display: none;",
-    ".editor-actions": "display: none;",
-    ".nosidebar .inline-tabs-placeholder": "width: 75px",
-    ".pane-header": "padding: 0 8px",
-    ".pane-body": "padding: 0 8px",
-    ".split-view-view:first-child .pane-header": "display: none !important",
-    ".monaco-list-row": "border-radius: 4px;",
-    ".monaco-workbench .monaco-list:not(.element-focused):focus:before": "display: none;"
+    "height": 21,
+    "fontSize": 12
   },
   "explorer.fileNesting.enabled": true,
   //Change font
@@ -289,5 +292,15 @@
   "editor.codeLensFontFamily": "Cascadia Code",
   "notebook.output.fontFamily": "Cascadia Code",
   "markdown.preview.fontFamily": "Cascadia Code",
-  "editor.inlayHints.fontFamily": "Cascadia Code"
+  "editor.inlayHints.fontFamily": "Cascadia Code",
+  "animations.Install-Method": "Apc Customize UI++",
+  "oneDarkPro.italic": true,
+  "oneDarkPro.vivid": true,
+  "oneDarkPro.bold": true,
+  "zenMode.centerLayout": false,
+  "zenMode.showTabs": "multiple",
+  "zenMode.hideActivityBar": false,
+  "zenMode.restore": true,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false
 }
