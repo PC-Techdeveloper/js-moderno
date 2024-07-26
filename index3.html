@@ -3,10 +3,75 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Eventos 🎉</title>
+
+    <style>
+      body * {
+        margin: 10px;
+        border: 1px solid blue;
+      }
+    </style>
   </head>
   <body>
     <h1>Eventos en JavaScript</h1>
-    <script src="eventos/introduccion.js"></script>
+    <span onclick="alert('click')" onmousedown="return false"
+      >Tocamé con el ratón dos veces 👆</span
+    >
+    <input
+      onmousemove="this.value=event.clientX+','+event.clientY"
+      value="Pasa el mouse sobre mí 🖱"
+      style="cursor: pointer"
+    />
+    <button id="button2">ALT + SHIFT ¡Haz click en mi 🤪!</button>
+
+    <!-- Atributo HTML -> onclick="..." -->
+    <input
+      type="button"
+      value="¡Cuenta los conejos 🐇!"
+      onclick="countRabbits()"
+      style="cursor: pointer"
+    />
+    <!-- Sobreescribe el handler de JS -->
+    <input
+      type="button"
+      value="Haz click en mi 🧘‍♀️"
+      id="elem"
+      onclick="alert('Antes')"
+      style="cursor: pointer"
+    />
+
+    <button id="button" style="cursor: pointer">Otro click!</button>
+    <button
+      id="btn"
+      value="Event type"
+      onclick="alert(event.type)"
+      style="cursor: pointer"
+    >
+      Dame click!
+    </button>
+
+    <button
+      id="btn2"
+      onclick="alert(event.stopImmediatePropagation())"
+      style="cursor: pointer"
+    >
+      Otro click más!
+    </button>
+
+    <div onclick="alert('¡El manejador!')">
+      <em
+        >Si haces clic en<code>EM</code>, el manejador en <code>DIV</code> es
+        ejecutado.</em
+      >
+    </div>
+
+    <form onclick="alert('form')">
+      FORM
+      <div onclick="alert('div')">
+        DIV
+        <p onclick="alert('p')">P 👆</p>
+      </div>
+    </form>
+    <script src="eventos-ui/mouse.js"></script>
   </body>
 </html>
