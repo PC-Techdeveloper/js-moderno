@@ -217,7 +217,7 @@
   "editor.folding": false,
   "terminal.integrated.lineHeight": 1,
   "editor.cursorStyle": "line",
-  "workbench.sideBar.location": "right",
+  "workbench.sideBar.location": "left",
   "console-ninja.toolsToEnableSupportAutomaticallyFor": {
     "live-server-extension": true,
     "live-preview-extension": true
