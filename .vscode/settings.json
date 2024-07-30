@@ -15,6 +15,7 @@
   "workbench.startupEditor": "none",
   "workbench.tree.expandMode": "singleClick",
   "workbench.tree.indent": 10,
+  "workbench.statusBar.visible": true,
 
   // ========== Editor ==========
   "debug.onTaskErrors": "debugAnyway",
@@ -180,11 +181,10 @@
   "prettier.proseWrap": "preserve",
   "prettier.endOfLine": "lf",
   "editor.wordWrap": "on",
-  "breadcrumbs.enabled": false,
+  "breadcrumbs.enabled": true,
   "editor.smoothScrolling": true,
   "terminal.integrated.smoothScrolling": true,
   "files.autoSave": "afterDelay",
-  "symbols.hidesExplorerArrows": false,
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
@@ -206,16 +206,14 @@
   "workbench.editor.enablePreview": true,
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.fontLigatures": true,
-  "zenMode.fullScreen": false,
+  "zenMode.fullScreen": true,
   "explorer.confirmPasteNative": false,
-  "editor.fontFamily": "Cascadia Code PL",
-  "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontFamily": "FiraCode Nerd Font",
-  "editor.fontSize": 14,
-  "window.zoomLevel": 2,
-  "editor.folding": false,
-  "terminal.integrated.lineHeight": 1,
+  "editor.fontFamily": "CaskaydiaCove Nerd Font",
+  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontFamily": "CaskaydiaCove Nerd Font",
+  "editor.fontSize": 15,
+  "window.zoomLevel": 1.5,
+  "editor.folding": true,
   "editor.cursorStyle": "line",
   "workbench.sideBar.location": "left",
   "console-ninja.toolsToEnableSupportAutomaticallyFor": {
@@ -231,63 +229,39 @@
   "workbench.editor.wrapTabs": false,
   "editor.guides.indentation": true,
   //Desactiva animaciones
-  "workbench.settings.enableNaturalLanguageSearch": false,
+  "workbench.settings.enableNaturalLanguageSearch": true,
   "editor.cursorBlinking": "expand",
   //Desactiva las sugerencias emergentes
   "editor.quickSuggestions": {
     "other": true,
-    "comments": true,
+    "comments": false,
     "strings": true
   },
-  //Reduce la complejidad del intellisense
-  "typescript.suggest.completeFunctionCalls": true,
-  "typescript.suggest.completeJSDocs": true,
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
   "window.newWindowDimensions": "maximized",
   "window.restoreFullscreen": true,
-  "supermaven.enable": {
-    "enable": true,
-    "autoUpdate": true,
-    "autoSave": true,
-    "autoFormat": true,
-    "formatOnSave": true,
-    "formatOnPaste": true
-  },
   "terminal.integrated.env.windows": {},
   "window.commandCenter": false,
-  "workbench.layoutControl.enabled": false,
-  "workbench.activityBar.location": "top",
-  "explorer.compactFolders": false,
+  "workbench.layoutControl.enabled": true,
+  "workbench.activityBar.location": "default",
+  "explorer.compactFolders": true,
   "files.trimTrailingWhitespace": true,
   "[markdown]": {
     "files.trimTrailingWhitespace": false
   },
   "material-icon-theme.hidesExplorerArrows": true,
-  //APC
-  "apc.activityBar": {
-    "position": "bottom",
-    "hideSettings": true,
-    "size": 24
-  },
-  "apc.electron": {
-    "titleBarStyle": "hiddenInset",
-    "trafficLightPosition": {
-      "x": 12,
-      "y": 10
-    }
-  },
-  "apc.statusBar": {
-    "position": "editor-bottom",
-    "height": 21,
-    "fontSize": 12
-  },
   "explorer.fileNesting.enabled": true,
   "zenMode.centerLayout": false,
   "zenMode.showTabs": "multiple",
   "zenMode.hideActivityBar": false,
   "zenMode.restore": true,
   "zenMode.hideLineNumbers": false,
-  "zenMode.hideStatusBar": false
+  "zenMode.hideStatusBar": false,
+  "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
+  "oneDarkPro.bold": true,
+  "oneDarkPro.italic": true,
+  "oneDarkPro.vivid": true,
+  "oneDarkPro.editorTheme": "One Dark Pro Darker"
 }

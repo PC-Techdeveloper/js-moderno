@@ -69,7 +69,9 @@ console.log(unionSet);
 Intersección de conjuntos -> Crear un conjunto que tenga los elementos comunes entre el primer y el segundo conjunto.
 */
 
-const commonElements = new Set([...firstSet].filter((element) => secondSet.has(element)));
+const commonElements = new Set(
+  [...firstSet].filter(element => secondSet.has(element))
+);
 
 const set10 = new Set([commonElements]);
 console.log(set10);
@@ -78,14 +80,18 @@ console.log(set10);
 Diferencia de conjuntos -> Los elementos del primer conjunto que NO están en el segundo conjunto.
 */
 
-const differenceSet = new Set([...firstSet].filter((element) => !secondSet.has(element)));
+const differenceSet = new Set(
+  [...firstSet].filter(element => !secondSet.has(element))
+);
 console.log(differenceSet);
 
 /*
 Exclusión de conjuntos -> Aquellos elementos que NO están en AMBOS conjuntos, es decir, que están en el primer conjunto, o que están sólo en el segundo conjunto.
 */
 
-const exclusionSet = new Set([...firstSet].filter((element) => secondSet.has(element)));
+const exclusionSet = new Set(
+  [...firstSet].filter(element => secondSet.has(element))
+);
 console.log(exclusionSet);
 
 //Con datos de objetos
