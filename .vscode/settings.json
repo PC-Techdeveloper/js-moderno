@@ -51,7 +51,8 @@
     "editor.tabCompletion": "onlySnippets",
     "editor.wordBasedSuggestions": "off",
   },
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
+  "editor.minimap.maxColumn": 65,
   "editor.unicodeHighlight.allowedCharacters": {
     "ا": true,
     "ه": true
