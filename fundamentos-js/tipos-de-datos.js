@@ -6,7 +6,7 @@
 let $message = 'Hola JavaScript 👋'
 $message = 3.1416
 //Comillas dobles
-let $secondMessage = "Hola NodeJS👋"
+let $secondMessage = 'Hola NodeJS👋'
 //Backticks o Template Literals
 let $thirdMessage = `Hola React 👋 ${$message}`
 console.log($message)
